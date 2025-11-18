@@ -1,4 +1,5 @@
 import AboutMe from "@/components/About-me"
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/Hero-section";
 import ProjectList from "@/components/Project";
 import Image from "next/image";
@@ -9,7 +10,7 @@ export default function Home() {
       <HeroSection/>
       <AboutMe/>
       <ProjectList/>
-      
+      <Footer/>
     </main>
   );
 }
