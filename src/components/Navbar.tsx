@@ -18,15 +18,13 @@ export function Navbar() {
       ),
       href: "/",
     },
-
     {
       title: "Projects",
       icon: (
         <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/projects",
+      href: "/project",
     },
-
     {
       title: "LinkedIn",
       icon: (
@@ -41,7 +39,6 @@ export function Navbar() {
       ),
       href: "https://linkedin.com/in/yourid",
     },
-
     {
       title: "Changelog",
       icon: (
@@ -49,7 +46,6 @@ export function Navbar() {
       ),
       href: "#",
     },
-
     {
       title: "Twitter",
       icon: (
@@ -57,7 +53,6 @@ export function Navbar() {
       ),
       href: "#",
     },
-
     {
       title: "GitHub",
       icon: (
@@ -67,8 +62,8 @@ export function Navbar() {
     },
   ];
 
-  return  (
-    <div className="absolute top-6 left-1/2 -translate-x-1/2 z-50">
+  return (
+    <div className="flex items-center justify-center w-full">
       <FloatingDock items={links} />
     </div>
   );

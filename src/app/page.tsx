@@ -1,6 +1,7 @@
 import AboutMe from "@/components/About-me"
 import HeroSection from "@/components/Hero-section";
 import ProjectList from "@/components/Project";
+import Project from "@/components/project-discription-card"
 import Image from "next/image";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <HeroSection/>
       <AboutMe/>
       <ProjectList/>
+      <Project/>
     </main>
   );
 }

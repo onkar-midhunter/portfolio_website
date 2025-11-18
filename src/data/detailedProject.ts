@@ -59,7 +59,13 @@ export const projects = [
       "Next.js performance optimization",
       "Creating scalable UI structures",
     ],
-    screenshots: [],
+    screenshots: [
+      "/project/music_academy/one.png",
+      "/project/music_academy/two.png",
+     "/project/music_academy/three.png",
+     "/project/music_academy/four.png",
+     "/project/music_academy/five.png"
+    ],
   },
 
   {
@@ -157,6 +163,12 @@ export const projects = [
       "Full CRUD operations",
       "Building scalable blog architecture",
     ],
-    screenshots: [],
+    screenshots: [
+       "/project/blog_website/one.png",
+      "/project/blog_website/two.png",
+     "/project/blog_website/three.png",
+     "/project/blog_website/four.png",
+     "/project/blog_website/five.png"
+    ],
   },
 ];
