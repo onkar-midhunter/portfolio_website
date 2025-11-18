@@ -1,3 +1,4 @@
+import { WavyBackground } from "@/components/ui/wavy-background";
 import { projects } from "@/data/detailedProject";
 import { ArrowLeft, ExternalLink, Github, Calendar, User, CheckCircle, Lightbulb, AlertCircle } from "lucide-react";
 import Link from "next/link";
@@ -29,7 +30,8 @@ export default async function ProjectPage({
   }
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <WavyBackground>
+      <div className="min-h-screen bg-black text-white">
       {/* Hero Section with Gradient Background */}
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-black to-blue-900/20" />
@@ -260,5 +262,6 @@ export default async function ProjectPage({
         </section>
       </div>
     </div>
+    </WavyBackground>
   );
 }

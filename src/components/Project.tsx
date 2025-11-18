@@ -3,7 +3,7 @@ import { ProjectCard } from "@/components/Project-card";
 
 export default function ProjectList() {
   return (
-  <div className="w-full h-[98vh] py-16">
+  <div className="w-full h-auto py-16">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(139,92,246,0.15),_transparent_70%)] pointer-events-none"></div>
     {/* Heading + Subtext */}
     <div className="text-center mb-12">
