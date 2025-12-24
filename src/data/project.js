@@ -7,7 +7,7 @@ export const project = [
     description:
       "A complete authentication system built using Next.js and TypeScript. It includes secure login/logout, JWT-based authentication, email verification, and a forgot-password workflow. Nodemailer is used to send verification and reset links, while Axios manages API calls.",
     gitHubRepoLink: "https://github.com/onkar-midhunter/NextJs-auth-app",
-    LiveLInk: ""
+    LiveLInk: "https://next-js-auth-app-tau.vercel.app/"
   },
   {
     id: 2,

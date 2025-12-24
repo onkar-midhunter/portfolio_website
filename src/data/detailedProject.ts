@@ -24,7 +24,7 @@ export const projects: Project[] = [
     description:
       "A complete authentication system with email verification, JWT-based login, secure APIs, and a forgot-password workflow. Built with Next.js App Router and TypeScript.",
     gitHubRepoLink: "https://github.com/onkar-midhunter/NextJs-auth-app",
-    liveLink: "",
+    liveLink: "https://next-js-auth-app-tau.vercel.app/",
     role: "Full-Stack Developer",
     completionDate: "October 2024",
     features: [
@@ -44,7 +44,11 @@ export const projects: Project[] = [
       "Handling authentication flows",
       "API security best practices",
     ],
-    screenshots: [],
+    screenshots: [
+      "/project/NextJs_Auth_App/one.png",
+       "/project/NextJs_Auth_App/two.png",
+        "/project/NextJs_Auth_App/three.png"
+    ],
   },
 
   {
