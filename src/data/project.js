@@ -49,4 +49,16 @@ export const project = [
     gitHubRepoLink: "https://github.com/onkar-midhunter/mega-blog-website",
     LiveLInk: "https://mega-blog-website-ten.vercel.app"
   }
+  ,
+  {
+    id: 6,
+    name: "MyStryMessage",
+    slug: "mystrymessage",
+    technology:
+      "Next.js (App Router), TypeScript, React 19, TailwindCSS, NextAuth, Mongoose, MongoDB, Resend, bcryptjs, Zod",
+    description:
+      "MyStryMessage is a message-sharing platform built with Next.js App Router. It includes user signup/sign-in with email verification, forgot-password (OTP) and reset flows, message sending/accepting APIs, and a protected dashboard — all backed by MongoDB and server-side APIs.",
+    gitHubRepoLink: "https://github.com/onkar-midhunter/mystery-message",
+    LiveLInk: "https://mystery-message-inky.vercel.app/"
+  }
 ];

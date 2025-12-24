@@ -1,4 +1,20 @@
-export const projects = [
+export interface Project {
+  id: number;
+  name: string;
+  slug: string;
+  technology: string;
+  description: string;
+  gitHubRepoLink: string;
+  liveLink: string;
+  role: string;
+  completionDate: string;
+  features: string[];
+  challenges: string[];
+  learnings: string[];
+  screenshots: string[];
+}
+
+export const projects: Project[] = [
   {
     id: 1,
     name: "NextJS Auth App",
@@ -62,9 +78,9 @@ export const projects = [
     screenshots: [
       "/project/music_academy/one.png",
       "/project/music_academy/two.png",
-     "/project/music_academy/three.png",
-     "/project/music_academy/four.png",
-     "/project/music_academy/five.png"
+      "/project/music_academy/three.png",
+      "/project/music_academy/four.png",
+      "/project/music_academy/five.png",
     ],
   },
 
@@ -164,11 +180,49 @@ export const projects = [
       "Building scalable blog architecture",
     ],
     screenshots: [
-       "/project/blog_website/one.png",
+      "/project/blog_website/one.png",
       "/project/blog_website/two.png",
-     "/project/blog_website/three.png",
-     "/project/blog_website/four.png",
-     "/project/blog_website/five.png"
+      "/project/blog_website/three.png",
+      "/project/blog_website/four.png",
+      "/project/blog_website/five.png",
+    ],
+  },
+
+  {
+    id: 6,
+    name: "MyStryMessage",
+    slug: "mystrymessage",
+    technology:
+      "Next.js (App Router), TypeScript, React 19, TailwindCSS, NextAuth, Mongoose, MongoDB, Resend, bcryptjs, Zod",
+    description:
+      "MyStryMessage is a message-sharing platform built with Next.js App Router. It includes user signup/sign-in with email verification, forgot-password (OTP) and reset flows, message sending/accepting APIs, and a protected dashboard — all backed by MongoDB and server-side APIs.",
+    gitHubRepoLink: "https://github.com/onkar-midhunter/mystery-message",
+    liveLink: "https://mystery-message-inky.vercel.app/",
+    role: "Full-Stack Developer",
+    completionDate: "December 2025",
+    features: [
+      "Email verification with token/resend",
+      "Sign-up and sign-in using NextAuth",
+      "Forgot-password OTP and reset",
+      "Send, accept, and manage messages",
+      "Protected dashboard and profile pages",
+      "Server API routes with Zod validation",
+    ],
+    challenges: [
+      "Coordinating OTP/email flows and expiry",
+      "Integrating NextAuth with custom user model",
+      "Designing resilient API validation and DB models",
+    ],
+    learnings: [
+      "Advanced Next.js App Router patterns",
+      "Email workflows and third-party services",
+      "Secure password handling and token expiry",
+    ],
+    screenshots: [
+      "/project/mystery-message/four.png",
+      "/project/mystery-message/three.png",
+      "/project/mystery-message/two.png",
+      "/project/mystery-message/one.png"
     ],
   },
 ];
