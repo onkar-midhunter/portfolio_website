@@ -35,15 +35,9 @@ export default function Footer() {
     },
     { 
       name: "LinkedIn", 
-      href: "https://linkedin.com/in/yourid", 
+      href: "https://www.linkedin.com/in/onkar-khedekar/", 
       icon: Linkedin,
       color: "hover:text-blue-400"
-    },
-    { 
-      name: "Twitter", 
-      href: "#", 
-      icon: Twitter,
-      color: "hover:text-sky-400"
     },
     { 
       name: "Email", 
