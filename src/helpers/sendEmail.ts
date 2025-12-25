@@ -8,7 +8,7 @@ export async function sendEmail(
 ): Promise<ApiResponse> {
   try {
     await resend.emails.send({
-      from: "Acme <onboarding@resend.dev>",
+      from: 'Onkar <hello@onkar-khedekar.online>',
       to: recEmail,
       subject: "Onkar Khedekar || portfolio website",
       react: RecruiterEmail({ recruiterName:recName }),

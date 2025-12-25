@@ -35,7 +35,7 @@ export default function RecruiterContactForm() {
       const data = await response.json();
 
       if (data.success) {
-        setStatus({ type: 'success', message: 'Thank you! Email sent successfully to your inbox.' });
+        setStatus({ type: 'success', message: 'Thank you! Email sent successfully. Please check your inbox (and your spam folder, just in case).'});
         setFormData({ recName: '', recEmail: '', recMessage: '' });
       } else {
         setStatus({ type: 'error', message: data.message || 'Something went wrong.' });
