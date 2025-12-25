@@ -12,7 +12,7 @@ const RecruiterSchema = new Schema<Recruiter>(
       type: String,
       required: [true, "userName is required"],
       trim: true,
-      unique: true,
+      
     },
     recMessage:{
       type:String,
@@ -21,7 +21,6 @@ const RecruiterSchema = new Schema<Recruiter>(
     recEmail: {
       type: String,
       required: [true, "Email is required"],
-      unique: true,
       match: [/.+\@.+\..+/, "Please use a valid email address"],
     },
   },
